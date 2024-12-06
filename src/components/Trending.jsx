@@ -49,7 +49,7 @@ const Trending = () => {
 
     return trending.length > 0 ? (
         <div className="w-screen h-screen ">
-            <div className=" px-[5%] w-full flex items-center justify-between ">
+            <div className=" px-[5%] w-full flex items-center justify-between h-5rem">
                 <h1 className=" text-2xl font-semibold text-zinc-400">
                     <i
                         onClick={() => navigate(-1)}
